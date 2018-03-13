@@ -156,7 +156,8 @@
         return this.size || this._formSize;
       },
       sizeClass() {
-        return (this.$ELEMENT || {}).size || this.elFormItemSize;
+        // return (this.$ELEMENT || {}).size || this.elFormItemSize;
+        return 'mini'
       }
     },
     data() {
